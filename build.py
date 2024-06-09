@@ -3,6 +3,8 @@ from node_generator import generate
 
 SO = "so"
 
+DLL = "dll" # Ken added this to allow building the library tree-sitter for Windows
+
 def build_main_lib():
     print(" -- building main libraries")
     native_lib_dir = "tree-sitter/lib/src"
@@ -11,7 +13,7 @@ def build_main_lib():
         "gcc",
         "-fPIC",
         "-shared",
-        "-o", f"{dotnet_lib_dir}/tree-sitter.{SO}",
+        "-o", f"{dotnet_lib_dir}/tree-sitter.{DLL}",
         f"{native_lib_dir}/lib.c",
         "free.c",
         f"-I{native_lib_dir}",

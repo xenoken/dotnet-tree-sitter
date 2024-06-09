@@ -1,0 +1,4 @@
+bin
+obj
+tree-sitter.so
+tree-sitter.dll

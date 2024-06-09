@@ -1,17 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeSitter", "TreeSitter\TreeSitter.csproj", "{DE78FE47-0AE0-49EE-B9EA-CAC2D2748975}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreeSitter", "TreeSitter\TreeSitter.csproj", "{DE78FE47-0AE0-49EE-B9EA-CAC2D2748975}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeSitter.C", "TreeSitter.C\TreeSitter.C.csproj", "{40FD5850-99AC-40C2-BEBB-5A7D0CBFE72F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreeSitter.C", "TreeSitter.C\TreeSitter.C.csproj", "{40FD5850-99AC-40C2-BEBB-5A7D0CBFE72F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeSitter.JavaScript", "TreeSitter.JavaScript\TreeSitter.JavaScript.csproj", "{04F6040A-4498-4A01-80FE-09E4C68E89AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreeSitter.JavaScript", "TreeSitter.JavaScript\TreeSitter.JavaScript.csproj", "{04F6040A-4498-4A01-80FE-09E4C68E89AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeSitter.Test", "TreeSitter.Test\TreeSitter.Test.csproj", "{8178AE46-7358-4F8A-A37F-99FD8710531E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreeSitter.Test", "TreeSitter.Test\TreeSitter.Test.csproj", "{8178AE46-7358-4F8A-A37F-99FD8710531E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeSitter.Python", "TreeSitter.Python\TreeSitter.Python.csproj", "{14D2885E-0348-4FBD-A1E1-DB4A93451133}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreeSitter.Python", "TreeSitter.Python\TreeSitter.Python.csproj", "{14D2885E-0348-4FBD-A1E1-DB4A93451133}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeSitter.V", "TreeSitter.V\TreeSitter.V.csproj", "{9DF9475D-7B77-484E-B2B6-D880FB020BC1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +23,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{DE78FE47-0AE0-49EE-B9EA-CAC2D2748975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -86,5 +85,23 @@ Global
 		{14D2885E-0348-4FBD-A1E1-DB4A93451133}.Release|x64.Build.0 = Release|Any CPU
 		{14D2885E-0348-4FBD-A1E1-DB4A93451133}.Release|x86.ActiveCfg = Release|Any CPU
 		{14D2885E-0348-4FBD-A1E1-DB4A93451133}.Release|x86.Build.0 = Release|Any CPU
+		{9DF9475D-7B77-484E-B2B6-D880FB020BC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DF9475D-7B77-484E-B2B6-D880FB020BC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DF9475D-7B77-484E-B2B6-D880FB020BC1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9DF9475D-7B77-484E-B2B6-D880FB020BC1}.Debug|x64.Build.0 = Debug|Any CPU
+		{9DF9475D-7B77-484E-B2B6-D880FB020BC1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9DF9475D-7B77-484E-B2B6-D880FB020BC1}.Debug|x86.Build.0 = Debug|Any CPU
+		{9DF9475D-7B77-484E-B2B6-D880FB020BC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DF9475D-7B77-484E-B2B6-D880FB020BC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DF9475D-7B77-484E-B2B6-D880FB020BC1}.Release|x64.ActiveCfg = Release|Any CPU
+		{9DF9475D-7B77-484E-B2B6-D880FB020BC1}.Release|x64.Build.0 = Release|Any CPU
+		{9DF9475D-7B77-484E-B2B6-D880FB020BC1}.Release|x86.ActiveCfg = Release|Any CPU
+		{9DF9475D-7B77-484E-B2B6-D880FB020BC1}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7DCC2E0B-4242-4C38-B19E-80D544D27F04}
 	EndGlobalSection
 EndGlobal

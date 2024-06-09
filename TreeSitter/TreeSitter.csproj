@@ -15,6 +15,9 @@
     </PropertyGroup>
     
     <ItemGroup>
+      <None Update="tree-sitter.dll">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
       <None Update="tree-sitter.so">
           <Pack>True</Pack>
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
